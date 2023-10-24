@@ -24,6 +24,8 @@ inquirer
     },
   ])
   .then(function (answer) {
+
+    
     if (answer.operator === "+") {
       console.log(`Your Answer is = ${answer.num1 + answer.num2}`);
     } else if (answer.operator === "-") {
